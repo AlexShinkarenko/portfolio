@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 700px;
+	line-height: 1.6em
+}
+p {
+	line-height: 1.6em;
+}
+ul li {
+	list-style: none;
+}
+.info {
+	width: 1200px;
+	margin: 100px auto;
+	background: url(../img/bg.png) no-repeat;
+	background-position: right;
+	background-size: contain;
+	height: 600px;
+}
+.info--text h2 {
+	margin-bottom: 60px;
+}
+.info--text {
+	width: 500px;
+	padding-top: 200px;
+}
+.button {
+	padding-top: 70px;
+}
+a.button--blue {
+	padding: 20px 30px;
+	border-radius: 4px;
+	background-color: #238aff;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.skills {
+	width: 100%;
+	background-color: #f1f5f8;
+}
+.skills--items {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+.skills--items img{
+	width: 50px;
+}
+.skills--item {
+	width: 100%;
+	padding-bottom: 50px;
+}
+.work {
+	background-color: #f1f5f8;
+	width: 100%;
+}
+.work--items {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.item {
+	width: 200px;
+	text-align: center;
+	background-color: #ffffff;
+	height: 100px;
+	text-align: left;
+}
+
+
